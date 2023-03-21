@@ -1,0 +1,62 @@
+@import './../../styles/variables';
+@import './../shared/spacer.scss';
+
+.blue-background {
+  background-color: $section-backg;
+}
+
+.techstack {
+  padding: 24px;
+
+  & &__header1 {
+    font-weight: 300;
+    font-size: 64px;
+  }
+
+  & &__footer {
+    text-align: center;
+    margin: 10px auto auto;
+  }
+
+  & &__tech-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      padding: 5px;
+      &--border {
+        border: solid 2px rgba(255, 255, 255, 0.501);
+      }
+
+      .fa-brands {
+        font-size: 48px;
+      }
+
+      .typescript-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .typescript {
+        max-width: 42px;
+      }
+    }
+  }
+}
+
+.spacer {
+  &-start {
+    background-image: url('./../../assets/svgs/layered-peaks-haikei1.svg');
+  }
+
+  &-end {
+    background-image: url('./../../assets/svgs/layered-steps-haikei.svg');
+  }
+}
