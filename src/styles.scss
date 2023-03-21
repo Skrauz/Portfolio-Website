@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/variables';
 @import '../node_modules/mdb-angular-ui-kit/assets/scss/mdb.scss';
 @import './app/wave-background/wave-background.scss';
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 
-:root {
+
+body {
   font-family: 'League Spartan';
 }
 
