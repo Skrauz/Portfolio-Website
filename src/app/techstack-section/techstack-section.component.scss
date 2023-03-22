@@ -1,5 +1,6 @@
 @import './../../styles/variables';
-@import './../shared/spacer.scss';
+@import './../shared/spacer';
+@import './../shared/section';
 
 .blue-background {
   background-color: $section-backg;
@@ -7,11 +8,6 @@
 
 .techstack {
   padding: 24px;
-
-  & &__header1 {
-    font-weight: 300;
-    font-size: 64px;
-  }
 
   & &__footer {
     text-align: center;

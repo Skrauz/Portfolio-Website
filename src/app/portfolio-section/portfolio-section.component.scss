@@ -1,0 +1,15 @@
+@import './../shared/section';
+@import './../../styles/variables';
+
+.portfolio {
+  margin: 24px;
+}
+
+.portfolio-item {
+  background-color: $dark;
+  margin: 16px auto;
+}
+
+.section-header {
+  margin: 0;
+}
