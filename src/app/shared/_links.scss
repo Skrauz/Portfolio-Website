@@ -1,0 +1,18 @@
+.links {
+  & .link {
+    min-width: 140px;
+    margin-right: 20px;
+
+    font-size: 16px;
+    font-style: normal;
+    box-shadow: 0 4px 9px -4px rgba(0, 0, 0, 0.55);
+    text-transform: none;
+    border-width: 1px;
+    border: none;
+    background-color: rgba($color: #fff, $alpha: 0.05);
+
+    &:hover {
+      background-color: rgba($color: #fff, $alpha: 0.2);
+    }
+  }
+}

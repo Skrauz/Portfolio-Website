@@ -1,5 +1,6 @@
 @import './../shared/section';
 @import './../../styles/variables';
+@import './../shared/links';
 
 .portfolio {
   margin: 24px;
@@ -7,9 +8,30 @@
 
 .portfolio-item {
   background-color: $dark;
-  margin: 16px auto;
+  margin: 20px auto 36px;
+
+  & &__header {
+    margin-bottom: 16px;
+  }
+
+  & &__screenshots {
+    margin-bottom: 16px;
+  }
 }
 
 .section-header {
   margin: 0;
+}
+
+.card {
+  width: 120%;
+}
+
+.card-left {
+  padding-left: 20%;
+  margin-left: -20%;
+}
+
+.card-right {
+  padding-right: 20%;
 }
