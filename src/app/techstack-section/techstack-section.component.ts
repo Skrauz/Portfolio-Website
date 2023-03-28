@@ -14,9 +14,9 @@ export class TechstackSectionComponent implements OnInit {
     gsap.from(".item", {
       scrollTrigger: {
         trigger: '.techstack__tech-grid',
-        markers: true,
+        // markers: true,
         start: 'top-=100px 50%',
-        end: '+=300px',
+        end: '+=270px',
         scrub: 1,
       },
       y: 30,

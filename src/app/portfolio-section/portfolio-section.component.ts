@@ -16,9 +16,21 @@ export class PortfolioSectionComponent implements OnInit {
       duration: 1,
       scrollTrigger: {
         trigger: '.item1',
-        markers: true,
-        start: 'top 50%',
-        end: '+=300px',
+        // markers: true,
+        start: 'top-=50px 50%',
+        end: '+=350px',
+        scrub: 1,
+      },
+    });
+
+    gsap.from('.item2', {
+      x: "100%",
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.item2',
+        // markers: true,
+        start: 'top-=50px 50%',
+        end: '+=350px',
         scrub: 1,
       },
     });
