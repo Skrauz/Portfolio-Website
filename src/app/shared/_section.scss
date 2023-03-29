@@ -1,4 +1,10 @@
+@import './../../styles/variables';
+
 .section-header {
     font-weight: 300;
     font-size: 64px;
+}
+
+.blue-background {
+  background-color: $section-backg;
 }
