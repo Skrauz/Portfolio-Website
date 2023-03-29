@@ -7,6 +7,9 @@ import { AboutMeSectionComponent } from './about-me-section/about-me-section.com
 import { LinksComponent } from './about-me-section/links/links.component';
 import { TechstackSectionComponent } from './techstack-section/techstack-section.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
+import { ContactFormComponent } from './contact-section/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +18,13 @@ import { PortfolioSectionComponent } from './portfolio-section/portfolio-section
     LinksComponent,
     TechstackSectionComponent,
     PortfolioSectionComponent,
+    ContactSectionComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MdbFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

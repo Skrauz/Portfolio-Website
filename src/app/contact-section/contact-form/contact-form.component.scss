@@ -1,0 +1,13 @@
+@import './../../shared/buttons';
+
+.form {
+  & &-label {
+    color: #fff !important;
+  }
+
+  & &-control {
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: rgba($color: #fff, $alpha: 0.08);
+  }
+}
