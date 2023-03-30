@@ -10,6 +10,7 @@ import { PortfolioSectionComponent } from './portfolio-section/portfolio-section
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 import { ContactFormComponent } from './contact-section/contact-form/contact-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ContactFormComponent } from './contact-section/contact-form/contact-for
     PortfolioSectionComponent,
     ContactSectionComponent,
     ContactFormComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
