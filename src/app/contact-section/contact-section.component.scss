@@ -1,8 +1,13 @@
 @import './../shared/section';
 @import './../../styles/variables';
+@import './../shared/spacer';
 
 .contact-section {
   padding: 24px;
 }
 
-
+.spacer {
+  &-start {
+    background-image: url('./../../assets/svgs/layered-waves-haikei.svg');
+  }
+}
