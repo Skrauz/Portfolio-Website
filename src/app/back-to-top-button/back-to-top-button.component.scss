@@ -1,0 +1,27 @@
+@import './../../styles/variables';
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+  width: 60px;
+  height: 60px;
+
+  font-size: 36px;
+
+  padding: unset;
+  padding-top: 5px;
+}
+
+.button-glass {
+  box-shadow: 0 4px 9px -4px rgba(0, 0, 0, 0.55);
+  text-transform: none;
+  border-width: 1px;
+  border: none;
+  background-color: rgba($color: #d56228, $alpha: 0.6);
+
+  &:hover {
+    background-color: rgba($color: #e06914, $alpha: 0.8);
+  }
+}
