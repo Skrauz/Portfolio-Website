@@ -14,6 +14,7 @@ import { HamburgerMenuComponent } from './hamburger-menu/hamburger-menu.componen
 
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
+import { BackToTopButtonComponent } from './back-to-top-button/back-to-top-button.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
     ContactFormComponent,
     FooterComponent,
     HamburgerMenuComponent,
+    BackToTopButtonComponent,
   ],
   imports: [
     BrowserModule,
