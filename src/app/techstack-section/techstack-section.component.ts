@@ -31,7 +31,7 @@ export class TechstackSectionComponent implements OnInit {
       scrollTrigger: {
         trigger: '.techstack__tech-grid',
         // markers: true,
-        start: 'top-=200px 50%',
+        start: 'top-=250px 50%',
         end: '+=100px',
         scrub: 0.5,
       },
