@@ -45,7 +45,6 @@ export class PortfolioSectionComponent implements OnInit {
       },
       opacity: 0,
       scale: 0.8,
-      stagger: 0.1
     })
   }
 }
