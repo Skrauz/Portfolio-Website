@@ -8,7 +8,7 @@ import { gsap } from 'gsap/src';
 })
 export class AboutMeSectionComponent implements OnInit {
   ngOnInit(): void {
-    gsap.from(".anim-popin", {
+    gsap.from(".about-me-popin", {
       opacity: 0,
       scale: 0.8,
       stagger: 0.1
