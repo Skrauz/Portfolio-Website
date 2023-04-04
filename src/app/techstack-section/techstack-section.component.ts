@@ -25,6 +25,18 @@ export class TechstackSectionComponent implements OnInit {
       scale: 1.2,
       ease: 'back',
       stagger: 0.1,
+    });
+
+    gsap.from(".techstack-header",{
+      scrollTrigger: {
+        trigger: '.techstack__tech-grid',
+        // markers: true,
+        start: 'top-=200px 50%',
+        end: '+=100px',
+        scrub: 0.5,
+      },
+      opacity: 0,
+      scale: 0.8,
     })
   }
 }
