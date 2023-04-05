@@ -22,3 +22,10 @@
     margin-bottom: 18px;
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .about-me {
+    max-width: 700px;
+    margin: 86px 5vw 40px;
+  }
+}
