@@ -6,6 +6,17 @@
   margin: 24px;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .portfolio {
+    margin: 24px 5vw;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio-item {
   background-color: $dark;
   margin: 20px auto 36px;
@@ -16,6 +27,8 @@
 
   & &__screenshots {
     margin-bottom: 16px;
+    max-width: 700px;
+    align-self: center;
   }
 }
 

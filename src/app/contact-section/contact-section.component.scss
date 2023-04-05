@@ -6,6 +6,12 @@
   padding: 24px;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .contact-section {
+    padding: 24px 5vw;
+  }
+}
+
 .spacer {
   &-start {
     background-image: url('./../../assets/svgs/layered-waves-haikei.svg');
