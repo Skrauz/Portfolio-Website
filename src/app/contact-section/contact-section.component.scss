@@ -12,6 +12,19 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .contact-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+    & .contact-form {
+      min-width: 700px;
+    }
+  }
+}
+
 .spacer {
   &-start {
     background-image: url('./../../assets/svgs/layered-waves-haikei.svg');

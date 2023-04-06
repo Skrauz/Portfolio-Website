@@ -13,9 +13,9 @@ export class ContactSectionComponent implements OnInit {
 
     gsap.from(".contact-header-popin", {
       scrollTrigger: {
-        trigger: '.contact-section',
+        trigger: '.contact-header-popin',
         // markers: true,
-        start: 'top-=120px 50%',
+        start: 'top-=200px 50%',
         end: '+=100px',
         scrub: 0.5,
       },
@@ -27,7 +27,7 @@ export class ContactSectionComponent implements OnInit {
       scrollTrigger: {
         trigger: '.contact-section',
         // markers: true,
-        start: 'top-=10px 50%',
+        start: 'top-=100px 50%',
         end: '+=120px',
         scrub: 0.5,
       },
