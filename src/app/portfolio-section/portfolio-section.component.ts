@@ -18,7 +18,7 @@ export class PortfolioSectionComponent implements OnInit {
         trigger: '.item1',
         // markers: true,
         start: 'top-=100px 50%',
-        end: '+=350px',
+        end: '+=270px',
         scrub: 1,
       },
     });
@@ -30,7 +30,7 @@ export class PortfolioSectionComponent implements OnInit {
         trigger: '.item2',
         // markers: true,
         start: 'top-=100px 50%',
-        end: '+=350px',
+        end: '+=270px',
         scrub: 1,
       },
     });
