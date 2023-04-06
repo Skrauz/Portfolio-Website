@@ -46,5 +46,17 @@ export class PortfolioSectionComponent implements OnInit {
       opacity: 0,
       scale: 0.8,
     })
+
+    gsap.from(".portfolio-footer", {
+      scrollTrigger: {
+        trigger: '.portfolio-footer',
+        // markers: true,
+        start: 'top-=200px 50%',
+        end: '+=100px',
+        scrub: 0.5,
+      },
+      opacity: 0,
+      scale: 0.8,
+    })
   }
 }
