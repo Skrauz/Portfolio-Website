@@ -12,24 +12,24 @@ export class PortfolioSectionComponent implements OnInit {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.from('.item1', {
-      x: "-100%",
+      x: "-150%",
       duration: 1,
       scrollTrigger: {
         trigger: '.item1',
         // markers: true,
-        start: 'top-=100px 50%',
+        start: 'top-=120px 50%',
         end: '+=270px',
         scrub: 1,
       },
     });
 
     gsap.from('.item2', {
-      x: "100%",
+      x: "150%",
       duration: 1,
       scrollTrigger: {
         trigger: '.item2',
         // markers: true,
-        start: 'top-=100px 50%',
+        start: 'top-=120px 50%',
         end: '+=270px',
         scrub: 1,
       },
