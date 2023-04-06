@@ -29,7 +29,7 @@ export class TechstackSectionComponent implements OnInit {
 
     gsap.from(".techstack-header",{
       scrollTrigger: {
-        trigger: '.techstack__tech-grid',
+        trigger: '.techstack-header',
         // markers: true,
         start: 'top-=250px 50%',
         end: '+=100px',

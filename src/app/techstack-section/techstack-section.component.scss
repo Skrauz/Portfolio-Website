@@ -49,6 +49,18 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .techstack {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & .grid-container {
+      min-width: 700px;
+    }
+  }
+}
+
 .spacer {
   &-start {
     background: url('./../../assets/svgs/layered-peaks-haikei1.svg');
