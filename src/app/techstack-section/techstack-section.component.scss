@@ -43,16 +43,21 @@
   }
 }
 
-// Tablet
 @media screen and (max-width: 1280px) and (min-width: 769px) {
   .techstack {
     padding: 24px 10vw 24px;
   }
 }
 
+@media screen and (min-width: 1281px) {
+  .spacer {
+
+  }
+}
+
 .spacer {
   &-start {
-    background-image: url('./../../assets/svgs/layered-peaks-haikei1.svg');
+    background: url('./../../assets/svgs/layered-peaks-haikei1.svg');
   }
 
   &-end {
