@@ -15,7 +15,7 @@ export class BackToTopButtonComponent implements OnInit {
       scrollTrigger: {
         trigger: '.contact-section',
         // markers: true,
-        start: 'top-=50px 50%',
+        start: 'top-=150px 50%',
         end: '+=200px',
         scrub: 1,
       },
