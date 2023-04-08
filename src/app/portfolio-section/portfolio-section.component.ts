@@ -35,6 +35,19 @@ export class PortfolioSectionComponent implements OnInit {
       },
     });
 
+    gsap.from('.item3', {
+      x: "-150%",
+      duration: 1,
+      scrollTrigger: {
+        trigger: '.item3',
+        // markers: true,
+        start: 'top-=120px 50%',
+        end: '+=270px',
+        scrub: 1,
+      },
+    });
+
+
     gsap.from(".portfolio-header-popin", {
       scrollTrigger: {
         trigger: '.portfolio',
